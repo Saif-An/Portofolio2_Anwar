@@ -6,6 +6,8 @@ import {
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
+  SiAdobeillustrator,
+  SiCanva,
 } from "react-icons/si";
 
 export default function Home() {
@@ -17,11 +19,15 @@ export default function Home() {
         alt="Profile"
         width={120}
         height={120}
-        className="rounded-full mb-6 border-4 border-white shadow-lg"
+        className="rounded-full mb-6 border-4 border-white shadow-2xl
+               transition-all duration-700 ease-in-out
+               hover:scale-125 hover:rotate-y-180
+               hover:border-cyan-400 hover:shadow-cyan-500/50
+               cursor-pointer transform-style-preserve-3d"
       />
 
       {/* HERO */}
-      <h1 className="text-4xl font-bold mb-2">Hi, I'm Anwar 👋</h1>
+      <h1 className="text-4xl font-bold mb-2">Youkoso, I'm Anwar 👋</h1>
       <p className="text-gray-300 text-center max-w-md mb-12">
         Web Developer & Law Student who builds modern web applications.
       </p>
@@ -36,12 +42,46 @@ export default function Home() {
       {/* SKILLS */}
       <h2 className="text-2xl font-semibold mb-6">Skills</h2>
       <div className="flex gap-6 text-4xl mb-16">
-        <SiHtml5 size={40} color="#F97316" />
-        <SiCss3 size={40} color="#2563EB" />
-        <SiJavascript size={40} color="#FACC15" />
-        <SiReact size={40} color="#22D3EE" />
-        <SiNextdotjs size={40} color="#FFFFFF" />
-        <SiTailwindcss size={40} color="#38BDF8" />
+        <SiHtml5
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#F97316] cursor-pointer"
+          size={50}
+          color="#F97316"
+        />
+        <SiCss3
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#2563EB] cursor-pointer"
+          size={50}
+          color="#2563EB"
+        />
+        <SiJavascript
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#FACC15] cursor-pointer"
+          size={50}
+          color="#FACC15"
+        />
+        <SiReact
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#22D3EE] cursor-pointer"
+          size={50}
+          color="#22D3EE"
+        />
+        <SiNextdotjs
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#FFFFFF] cursor-pointer"
+          size={50}
+          color="#FFFFFF"
+        />
+        <SiTailwindcss
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#38BDF8] cursor-pointer"
+          size={50}
+          color="#38BDF8"
+        />
+        <SiAdobeillustrator
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#d80000ff] cursor-pointer"
+          size={50}
+          color="#d80000ff"
+        />
+        <SiCanva
+          className="transition-all duration-300 hover:scale-125 hover:drop-shadow-[0_0_15px_#00C2FF] cursor-pointer"
+          size={50}
+          color="#00C2FF"
+        />
       </div>
 
       {/* CONTACT */}
