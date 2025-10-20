@@ -27,7 +27,7 @@ export default function Home() {
       />
 
       {/* HERO */}
-      <h1 className="text-4xl font-bold mb-2">Youkoso, I'm Anwar 👋</h1>
+      <h1 className="text-4xl font-bold mb-2">Youkoso, Im Anwar 👋</h1>
       <p className="text-gray-300 text-center max-w-md mb-12">
         Web Developer & Law Student who builds modern web applications.
       </p>
