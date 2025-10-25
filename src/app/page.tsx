@@ -19,7 +19,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12">
         <div className="flex flex-col md:flex-row items-center gap-8 max-w-6xl w-full">
           {/* Gambar */}
-          <div className="flex-1 flex justify-center">
+          <div className="flex-1 flex justify-center ">
             <Image
               src="/mecasenku.png"
               alt="Profile"
@@ -55,10 +55,12 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
             About Me
           </h2>
-          <div className=" transition-all duration-700 ease-in-out hover:scale-115 bg-gradient-to-r from-blue-600 to-sky-500 rounded-2xl p-8 md:p-12 shadow-2xl">
-            <p className="text-gray-300 text-lg md:text-xl lg:text-2xl leading-relaxed mb-8">
-              Passionate in technology, UI/UX, and education. Currently learning
-              Next.js and building LMS platform.
+          <div className="bg-blue-900 transition-all duration-700 ease-in-out hover:scale-115 hover:bg-gradient-to-r from-blue-600 to-sky-500 rounded-2xl p-8 md:p-12 shadow-2xl">
+            <p className="text-gray-100 text-lg md:text-xl lg:text-2xl leading-relaxed mb-8">
+              Hello I am Anwar, a informatics student from Nahdlatul Ulama
+              University, Yogyakarta. My passionate in technology, UI/UX, web
+              development and education. I understand to build my skill dan
+              experience.
             </p>
           </div>
         </div>
