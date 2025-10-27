@@ -146,10 +146,10 @@ export default function Home() {
       <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12 bg-gray-900">
         <div className="max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
-            Let's Connect
+            Let us Connect
           </h2>
           <p className="text-gray-400 text-xl md:text-2xl mb-12 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? Let's build something amazing
+            Ready to bring your ideas to life? Let us build something amazing
             together!
           </p>
           <a
