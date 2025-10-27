@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
       <Navbar />
-      {/* HERO SECTION - FULL SCREEN */}
+      {/* HERO SECTION */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12">
         <div className="flex flex-col md:flex-row items-center gap-8 max-w-6xl w-full">
           {/* Gambar */}
@@ -42,7 +42,7 @@ export default function Home() {
               I am Anwar 👋
             </h1>
             <p className="text-gray-300 text-lg md:text-xl lg:text-2xl max-w-md mb-8 leading-relaxed">
-              Web Developer & Informatics Student who builds modern web
+              Web Developer and Informatics Student who builds modern web
               applications.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SKILLS SECTION - FULL SCREEN */}
+      {/* SKILLS SECTION */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12">
         <div className="max-w-6xl text-center w-full">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-16">
@@ -142,7 +142,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT SECTION - FULL SCREEN */}
+      {/* CONTACT SECTION */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12 bg-gray-900">
         <div className="max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">

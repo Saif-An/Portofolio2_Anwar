@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="bg-white/10 p-8 rounded-2xl shadow-lg text-center ">
         <h2 className="text-2xl font-semibold mb-4">To-Do List App</h2>
         <p className="text-gray-300 mb-6 max-w-md">
-          A simple SPA built using Next.jsand TypeScript to manage your daily
+          A simple SPA built using Next.js and TypeScript to manage your daily
           task.
         </p>
         <Link
