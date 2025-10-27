@@ -60,7 +60,7 @@ export default function Home() {
               Hello I am Anwar, a informatics student from Nahdlatul Ulama
               University, Yogyakarta. My passionate in technology, UI/UX, web
               development and education. I understand to build my skill dan
-              experience.
+              experience with you.
             </p>
           </div>
         </div>
